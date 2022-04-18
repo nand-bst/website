@@ -10,8 +10,17 @@ body{
   background: white; 
 }
 
+.products.active .footer-ul{
+	max-height: 6000px;
+	display: block;
+	margin-left: 16px;
+}
+
+.products.active a::after{
+	transform: rotate(225deg) ;
+}
+
 .header{
-	width: 100%;
 	height: 65px;
 	background-color: #1f2640;
 	color: white;
@@ -67,6 +76,8 @@ body{
     top: 25px;
     transition: .3s ease-in-out;
 }
+
+
 
 .not-expandable::after{
 	display: none;
@@ -261,6 +272,7 @@ body{
 	font-weight: normal;
 	line-height: 28px;
 	list-style: none;
+	/*max-height: 0;*/
 }
 
 .footer-ul-sub-menu{
@@ -291,6 +303,14 @@ body{
 
 .footer .footer-menu-section{
 	padding: 0px;
+}
+
+.kh{
+	/*max-width: 150px;*/
+}
+
+.footer-socialmedia-logo{
+
 }
 
 .affiliate{
@@ -354,6 +374,40 @@ body{
 .footer-wrapper{
     padding-bottom: 24px ;
 }
+
+
+
+	/*.footer-ul {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+   }*/
+
+.footer-socialmedia-logo{
+width: 32px;
+height: 32px;
+background: #8c9eff;
+border-radius: 6px;
+margin-right: 12px;
+}
+
+
+.reddit{
+	background: #f76937;
+}
+
+.fb{
+	background: #3b5998;
+}
+
+.twitter{
+	background: #55acee;
+}
+
+
+
 
 @media (max-width: 1285px){
 	.header-wrapper{
@@ -422,7 +476,13 @@ body{
 
 	.footer-ul{
 		display: none;
+		/*max-height: 0;*/
+		/*overflow: hidden;*/
 	}
+
+	/*.footer-ul-sub-menu{
+		display: block!important;
+	}*/
 
 	.footer-wrapper{
 		padding: 20px 24px 16px 24px;
@@ -446,10 +506,26 @@ body{
 	.products{
 		padding: 16px 0;
 		border-bottom: 1px solid rgba(255,255,255,.5);
+		position: relative;
 	}
 
 	.engage{
 		padding: 16px 0;
 	}
+
+	.products a::after{
+	right: 5px;
+    content: '';
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    -webkit-transform: rotate(45deg) translate(0,-50%);
+    transform: rotate(45deg) translate(0,-50%);
+    position: absolute;
+    /*top: 5px;*/
+    transition: .3s ease-in-out;
+    pointer-events: none;
+}
 
 }
