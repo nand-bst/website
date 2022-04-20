@@ -385,6 +385,8 @@ body{
 	font-weight: normal;
 	line-height: 28px;
 	list-style: none;
+	margin-top: 4px;
+	margin-bottom: 32px;
 }
 
 .footer-ul a{
@@ -398,7 +400,11 @@ body{
     color: #f5f5f5;
     font-weight: 400;
     opacity: .7;
-    max-width: 150px;
+    max-width: 152px;
+}
+
+.footer-ul-sub-menu a:hover{
+	text-decoration: underline;
 }
 
 .logo-section{
@@ -424,7 +430,7 @@ body{
 }
 
 .affiliate{
-	padding-top: 22px;
+	padding-top: 2px;
     opacity: 1;
     font-weight: bold;
 }
@@ -433,18 +439,17 @@ body{
 	font-weight: bold;
 }
 
-.products a{
+.products-anchor{
 	color: white;
 	text-decoration: none;
 	cursor: pointer;
 }
 
-.products a:hover{
+.products-anchor:hover{
 	text-decoration: underline;
 }
 
 .footer-ul-sub-menu:hover{
-	text-decoration: underline;
 	cursor: pointer;
 }
 
@@ -491,6 +496,14 @@ body{
 	text-decoration: none;
 }
 
+.footer-image-group-anchor{
+	text-decoration: none;
+}
+
+.engage{
+	margin-right: 50px;
+}
+
 .games{
 	display: inline-block;
 }
@@ -532,6 +545,8 @@ margin-right: 12px;
 .text-youtube{
 	color: #fefefe;
     padding-right: 8px;
+    font-weight: normal;
+    font-size: small;
 }
 
 .subscriber-count{
@@ -540,12 +555,18 @@ margin-right: 12px;
     line-height: 30px;
     background-color: #fafafa;
     border-radius: 0 2px 2px 0;
+    font-weight: normal;
+    font-size: small;
 }
 
 .yt-anchor{
 	display: flex;
 	padding-top: 12px;
-	
+	text-decoration: none;
+}
+
+.yt-anchor:hover{
+	text-decoration: none;
 }
 
 @media (max-width: 1285px){
@@ -655,6 +676,7 @@ margin-right: 12px;
 	.engage{
 		padding: 16px 0;
 		border-bottom: none;
+		margin-right: 0;
 	}
 
 	.products .products-anchor::after{
