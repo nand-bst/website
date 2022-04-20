@@ -521,8 +521,32 @@ margin-right: 12px;
 	background: #55acee;
 }
 
+.icon-with-text{
+	background: #e62117;
+    border-radius: 2px 0 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.text-youtube{
+	color: #fefefe;
+    padding-right: 8px;
+}
 
+.subscriber-count{
+	color: #737373;
+    padding: 0 7px;
+    line-height: 30px;
+    background-color: #fafafa;
+    border-radius: 0 2px 2px 0;
+}
+
+.yt-anchor{
+	display: flex;
+	padding-top: 12px;
+	
+}
 
 @media (max-width: 1285px){
 	.header-wrapper{

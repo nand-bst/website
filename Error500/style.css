@@ -463,6 +463,16 @@ margin-right: 12px;
     padding-bottom: 24px ;
 }
 
+.products a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.products a:hover{
+  text-decoration: underline;
+}
+
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
     
