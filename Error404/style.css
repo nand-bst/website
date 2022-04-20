@@ -46,7 +46,6 @@ body{
 	background-color: #1f2640;
 	color: white;
 	font-family: sans-serif;
-	position: fixed;
 	top: 0;
 	width: 100%;
 }
@@ -64,14 +63,7 @@ body{
 	align-items: center;
 }
 
-/*.open{
-	display: flex;
-}*/
-
 .open{
-	display: flex;
-	/*max-height: 600px;
-*/
 	display: flex;
     position: fixed;
     height: 100%;
@@ -84,19 +76,11 @@ body{
     flex-direction: column;
     align-items: flex-start;
     overflow-y: scroll;
-   /* display: flex;
-    position: fixed;
-    height: 100%;
-    background: black;
-    z-index: 1;
-    width: 100%;
-    top: 65px;*/
 }
 
 
 .header-leftsection-items{
 	line-height: 56px;
-	/*padding: 0 0 0 20px;*/
 	position: relative;
 	margin-left: 20px;
     width: 92%;
@@ -124,8 +108,6 @@ body{
     padding: 0px;
     position: relative;
     top: auto;
-    /* margin: 47px; */
-    /* margin: 47px; */
     margin-top: 54px;
     left: -18px;
     border: none;
@@ -141,10 +123,6 @@ body{
 	transform: rotate(225deg) ;
 }
 
-.hamburger-menu.active .submenu{
-	/*display: block;
-	max-height: 600px;*/
-}
 
 .header-leftsection-items .submenu{
 	display: none;
@@ -434,7 +412,6 @@ body{
 	font-weight: normal;
 	line-height: 28px;
 	list-style: none;
-	/*max-height: 0;*/
 }
 
 .footer-ul a{
@@ -471,14 +448,6 @@ body{
 
 .footer .footer-menu-section{
 	padding: 0px;
-}
-
-.kh{
-	/*max-width: 150px;*/
-}
-
-.footer-socialmedia-logo{
-
 }
 
 .affiliate{
@@ -558,15 +527,6 @@ body{
 }
 
 
-
-	/*.footer-ul {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-   }*/
-
 .footer-socialmedia-logo{
 width: 32px;
 height: 32px;
@@ -629,7 +589,6 @@ margin-right: 12px;
 	}
 
     .products.active .footer-ul{
-	max-height: 600px;
 	display: block;
 	margin-left: 16px;
     }
@@ -669,13 +628,7 @@ margin-right: 12px;
 
 	.footer-ul{
 		display: none;
-		/*max-height: 0;*/
-		/*overflow: hidden;*/
 	}
-
-	/*.footer-ul-sub-menu{
-		display: block!important;
-	}*/
 
 	.footer-wrapper{
 		padding: 20px 24px 16px 24px;
@@ -717,7 +670,6 @@ margin-right: 12px;
     -webkit-transform: rotate(45deg) translate(0,-50%);
     transform: rotate(45deg) translate(0,-50%);
     position: absolute;
-    /*top: 5px;*/
     transition: .3s ease-in-out;
     pointer-events: none;
 }

@@ -9,10 +9,9 @@ var acc = document.getElementsByClassName("products");
     });
 }
 
-
-
+console.log(document.getElementsByClassName("hamburger-menu"));
 document.getElementsByClassName("hamburger-menu")[0].addEventListener("click",function(){
-  console.log(document.getElementsByClassName("hamburger-menu"));
+
 	var menuhamburger = document.getElementsByClassName("hamburger-menu");
 	menuhamburger[0].style.display="none";
 
@@ -48,3 +47,5 @@ var acc = document.getElementsByClassName("header-leftsection-items");
     });
 
 }
+
+
