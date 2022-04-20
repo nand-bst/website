@@ -11,18 +11,6 @@ body{
 }
 
 
-
-/*.hamburger-menu.active .header-leftsection-items{
-	display: block;
-    position: fixed;
-    top: 55px;
-    height: calc(100vh - 45px);
-    width: 100%;
-    right: 0;
-    background-color: rgba(0,0,0,.95);
-    overflow-y: scroll;
-}*/
-
 .hamburger-menu.active .footer-wrapper{
 	display: none;
 }
@@ -145,21 +133,6 @@ body{
     );
 }
 
-/*.hamburger-menu-close{
-	width: 23px;
-    height: 23px;
-    
-    border: none;
-    margin: 20px;
-    background: linear-gradient(
-      to bottom, 
-      white 8%, 
-    #1f2640 13%, #1f2640 50%, 
-    white 40%, white 59%, 
-    #1f2640 52%, #1f2640 91%, 
-    white 80%, white 100%
-    );
-}*/
 
 .hamburger-menu-close {
     width: 23px;

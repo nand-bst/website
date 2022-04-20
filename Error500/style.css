@@ -130,9 +130,6 @@ body{
       }
 
 
-
-
-
 .header-leftsection{
   display: none;
 }
@@ -150,7 +147,6 @@ body{
 
 .header-leftsection-items{
   line-height: 56px;
-  /*padding: 0 0 0 20px;*/
   position: relative;
   margin-left: 20px;
     width: 92%;
@@ -178,8 +174,6 @@ body{
     padding: 0px;
     position: relative;
     top: auto;
-    /* margin: 47px; */
-    /* margin: 47px; */
     margin-top: 54px;
     left: -18px;
     border: none;
@@ -360,7 +354,7 @@ margin-right: 12px;
   color: white;
   justify-content: space-between;
   padding-top: 40px;
-  /*border-bottom: 2px solid #394566;*/
+  border-bottom: 2px solid #394566;
   margin: 0 150px;
   font-weight: bold;
 }
@@ -375,9 +369,10 @@ margin-right: 12px;
 .footer-ul-sub-menu{
   padding: 0px;
   font-size: 14px;
-    color: #f5f5f5;
-    font-weight: 400;
-    opacity: .7;
+  color: #f5f5f5;
+  font-weight: 400;
+  opacity: .7;
+  max-width: 150px;
 }
 
 .logo-section{
@@ -591,9 +586,6 @@ margin-right: 12px;
     pointer-events: none;
 }
 
- .right-container{
-   margin-left: 474px;
- }
 
 }
 		

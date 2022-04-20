@@ -13,6 +13,7 @@ var acc = document.getElementsByClassName("products");
 
 document.getElementsByClassName("hamburger-menu")[0].addEventListener("click",function(){
   console.log(document.getElementsByClassName("hamburger-menu"));
+
 	var menuhamburger = document.getElementsByClassName("hamburger-menu");
 	menuhamburger[0].style.display="none";
 
@@ -20,7 +21,6 @@ document.getElementsByClassName("hamburger-menu")[0].addEventListener("click",fu
 	document.getElementsByClassName("hamburger-menu-close")[0].style.display="block";
 
 	var leftsection = document.getElementsByClassName("header-leftsection");
-	console.log('hi');
 	console.log(leftsection);
 
 	leftsection[0].classList.toggle("open");
