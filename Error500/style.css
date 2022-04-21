@@ -455,6 +455,11 @@ margin-right: 12px;
   text-decoration: none;
 }
 
+.footer-ul a{
+  color: white;
+  text-decoration: none;
+}
+
 .games{
   display: inline-block;
 }
@@ -463,14 +468,69 @@ margin-right: 12px;
     padding-bottom: 24px ;
 }
 
-.products a{
+.products-anchor{
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
 
-.products a:hover{
+.products-anchor:hover{
   text-decoration: underline;
+}
+
+.subscribe{
+  display: grid;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.subscribe-img{
+  padding-top: 10px;
+}
+
+.subscriber-count{
+    color: #737373;
+    padding: 0 7px;
+    line-height: 30px;
+    background-color: #fafafa;
+    border-radius: 0 2px 2px 0;
+    font-weight: normal;
+    font-size: small;
+}
+
+.yt-anchor{
+  display: flex;
+  padding-top: 12px;
+  text-decoration: none;
+}
+
+.yt-anchor:hover{
+  text-decoration: none;
+}
+
+.icon-with-text{
+  background: #e62117;
+  border-radius: 2px 0 0 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-youtube{
+  color: #fefefe;
+  padding-right: 8px;
+  font-weight: normal;
+  font-size: small;
+}
+
+.subscriber-count{
+    color: #737373;
+    padding: 0 7px;
+    line-height: 30px;
+    background-color: #fafafa;
+    border-radius: 0 2px 2px 0;
+    font-weight: normal;
+    font-size: small;
 }
 
 
@@ -582,7 +642,7 @@ margin-right: 12px;
     padding: 16px 0;
   }
 
-  .products a::after{
+  .products-anchor::after{
   right: 5px;
     content: '';
     border: solid #fff;
